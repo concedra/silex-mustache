@@ -1,0 +1,9 @@
+{
+    "name": "concedra/silex-mustache",
+    "description": "Provides Mustache.php integration for the Silex microframework",
+    "autoload": {
+        "psr-0": {
+            "Concedra": "src"
+        }
+    }
+}
