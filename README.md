@@ -17,3 +17,21 @@ loader is defined in `mustache.options`, filesystem loaders will be created auto
 
 *  **mustache**: The Mustache instance.
 
+## Usage Example
+
+### Registering with the application
+
+    $app->register(new \Concedra\Silex\MustacheServiceProvider(), array(
+        'mustache.templates_path' => '/path/to/template_directory',
+        'mustache.partials_path' => '/path/to/partials_directory',
+    ));
+
+### Rendering content
+
+    // inside controller, will look for `template.mustache` in `mustache.templates_path`
+    $app['mustache']->render('template', array('variable' => 'value'));
+
+## See also
+
+*  [Mustache Homepage](http://mustache.github.com)
+*  [Mustache.php](https://github.com/bobthecow/mustache.php)
