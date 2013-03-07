@@ -2,6 +2,7 @@
     "name": "concedra/silex-mustache",
     "description": "Provides Mustache.php integration for the Silex microframework",
     "license": "MIT",
+    "keywords": ["templating", "silex", "mustache"],
     "authors": [
         {
             "name": "Christian Schorn",
