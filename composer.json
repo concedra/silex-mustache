@@ -2,6 +2,12 @@
     "name": "concedra/silex-mustache",
     "description": "Provides Mustache.php integration for the Silex microframework",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Schorn",
+            "email": "schorn@concedra.de"
+        }
+    ],
     "autoload": {
         "psr-0": {
             "Concedra": "src"
