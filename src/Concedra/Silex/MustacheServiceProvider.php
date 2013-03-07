@@ -40,9 +40,7 @@ class MustacheServiceProvider implements ServiceProviderInterface
                 );
             }
 
-            $app['mustache.options'] = $opts;
-
-            return new \Mustache_Engine($app['mustache.options']);
+            return new \Mustache_Engine($opts);
         });
     }
 
