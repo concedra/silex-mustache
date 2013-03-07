@@ -11,8 +11,7 @@ Provides integration with [Mustache.php](https://github.com/bobthecow/mustache.p
 *  **mustache.partials_path** (optional): Path to the directory containing partials.
 
 If `mustache.templates_path` or `mustache.partials_path` are set and no corresponding
-loader is defined in `mustache.options`, filesystem loaders will be created automatically
-in `mustache.options`.
+loader is defined in `mustache.options`, filesystem loaders will be created automatically.
 
 ## Services
 
