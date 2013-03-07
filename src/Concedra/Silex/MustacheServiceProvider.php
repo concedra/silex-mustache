@@ -13,7 +13,10 @@ class MustacheServiceProvider implements ServiceProviderInterface
 {
     public function register(Application $app)
     {
-        $app['mustache.options'] = array();
+        $app['mustache.options'] = array(
+            'charset' => $app['charset'];
+        );
+
         $app['mustache.extension'] = 'mustache';
 
         $app['mustache'] = $app->share(function ($app) {
